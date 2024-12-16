@@ -1,0 +1,16 @@
+Purpose: I came up with this app because I have to input calendar dates for my accounting firm as reminders for 60 days from the date that we issue finalized reports to clients. I don't like having to go to Google constantly to search for "what is 60 days from XX date or today." This app allows me to quickly calculate the date 60 days from any given date, streamlining the process and saving time. The purpose of the 60-Day Date Calculator App is to allow users to input a date in the format MM-DD-YYYY and calculate what the date will be 60 days from the entered date.
+
+What I Attempted: The main goal was to create a simple date calculation app using the tkinter library in Python. The following features were implemented:
+
+User Input: A field to enter a date in MM-DD-YYYY format.
+
+Date Calculation: Once the user enters the date and clicks the "Calculate" button, the app calculates 60 days from the entered date.
+
+Result: The app shows the calculated future date in a user-friendly popup window.
+
+Errors: The app includes checks for empty inputs and incorrect date formats, alerting the user with appropriate messages.
+
+What Worked: Date Calculation, UI Simplicity, Pop-up Message Box
+
+What Didn’t Work: The app only accepts dates in the strict MM-DD-YYYY format. I wasn’t sure how to add variety to this feature.  While this is useful in a way, it might be beneficial to add support for different date formats or an interactive date picker from a calendar interface in the future. I’d also like to add options for custom time spans or other standards like 30 days or 90 days etc.
+
